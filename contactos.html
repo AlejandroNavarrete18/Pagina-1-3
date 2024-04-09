@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <tr><a href="index.html">Inicio</a></tr>    <a href="nosotros.html">Nosotros</a>    <a href="Servicios.html">Servicios</a>      <a href="Registro.html">Registros</a>       <a href="Contactos.html">Contactos</a>
+    
+</body>
+<form class="formdato"  action="resultados.html"   method="post"    id="formulario" >
+    <h2 class="titulos">Pagina de Contacto</h2>
+    <label for="nom">Nombre</label>
+    <input class="hi" type="text"  name="nom" id="nom">
+    
+    <label for="correo">Gmail</label>
+    <input class="hi"  type="email" name="correo" id="correo">
+    
+    <label for="tele">Telefono</label>
+    <input class="hi" type="tel" name="tel" id="tele"   pattern="{0-9}{3}-{0-9}{7}"  maxlength="10"  required>
+
+    <label for="">Mensaje</label>
+    <textarea class="hi"  name="" id="2" cols="30" rows="5"></textarea>
+    <input  class="enviar" type="submit" name="Enviar" value="Enviar">
+</form>
+
+</html>
