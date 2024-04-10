@@ -20,6 +20,7 @@
 
 }
 .Video{
+    background-color: rgb(208, 243, 231);
 
     
 }
@@ -67,4 +68,6 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
-
+.color{
+    background-color: rgb(208, 243, 231);
+}
